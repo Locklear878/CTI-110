@@ -16,5 +16,3 @@ last_name = input("What's your last name? ")
 
 # They say back the name
 print("Nice to meet you", first_name, last_name)
-
-
