@@ -6,7 +6,7 @@
 # Fictional Store -- pick three things
 # product_name, product_count, product_price
 
-# Hardcoding sets values directly.
+# Hardcoding sets values directly
 # product_name = "slinky" # strings use "quotes" and are made of text
 # product_count = 100 # intergers are whole numbers, no decimal
 # product_price = 3.50 # float are decimal numbers

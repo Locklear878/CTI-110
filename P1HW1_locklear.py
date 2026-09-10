@@ -22,7 +22,7 @@ add_this = int(input("Enter interger to add: "))
 sub_this = int(input("Enter integer to subtract: "))
 #Calculate the anser
 answer = start + add_this - sub_this
-# Print the anser
+# Print the answer
 print()
 print() # That gives 2 newlines, so would print("\n")
 # should look like: "10 + 4 - 2 is equal to 12"
