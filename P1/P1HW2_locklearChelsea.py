@@ -21,8 +21,10 @@ food = float(input("How much will you spend on food? "))
 # Add expenses
 expenses = gas + accommodation + food
 # print expenses
-print("Total Expenses $", format(expenses,".2f"))
+print("Total Expenses is  $" + format(expenses,".2f"))
+# Subtract expenses
+balance = budget - expenses
 # Subtract expenses
 balance = budget - expenses
 # Display results
-print("Your balance is $", format(balance,".2f"))
+print("Your balance is    $" + format(balance,".2f"))
