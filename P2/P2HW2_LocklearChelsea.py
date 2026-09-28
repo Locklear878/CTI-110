@@ -3,8 +3,6 @@
 # P2HW2
 # Understanding list
 
-# Greet the user
-print("Hello!")
 # ask user for module 1 grade
 module1 = float(input("What is the grade for Module 1? "))
 # ask use for module 2 grade
@@ -17,16 +15,7 @@ module4 = float(input("What is the grade for Module 4? "))
 module5 = float(input("What is the grade for Module 5? "))
 # ask user for module 6 grade
 module6 = float(input("What is the grade for Module 6? "))
-# make list of all grades
-# commented out the lines below
-"""
-module1 = 65.5
-module2 = 88
-module3 = 78.5
-module4 = 90
-module5 = 61
-module6 = 92
-"""
+
 # print list of grades
 print(f"{"Module 1:":<10} {module1:<10}")
 print(f"{"Module 2:":<10} {module2:<10}")
@@ -35,16 +24,18 @@ print(f"{"Module 4:":<10} {module4:<10}")
 print(f"{"Module 5:":<10} {module5:<10}")
 print(f"{"Module 6:":<10} {module6:<10}")
 
-grades = [module1,module2,module3,module4,module4,module5,module6]
-
+grades = [module1,module2,module3,module4,module5,module6]
+print("-" * 12 + "Results" + "-" * 12)
 # calculate lowest grade
 print("Lowest grade is",min(grades))
 # calculate highest grade
 print("Highest grade is",max(grades))
 # calculate sum of grades
-sum = sum(grades)
-print("Total grade is ",sum)
+grade_sum = sum(grades)
+print("Total grade is ",grade_sum)
 # average 
 size = len(grades)
-average = sum / size
+average = grade_sum / size
 print("The average of grades is",average)
+
+print("-" * 31)
