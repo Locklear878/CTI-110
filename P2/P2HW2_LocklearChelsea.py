@@ -27,15 +27,15 @@ print(f"{"Module 6:":<10} {module6:<10}")
 grades = [module1,module2,module3,module4,module5,module6]
 print("-" * 12 + "Results" + "-" * 12)
 # calculate lowest grade
-print("Lowest grade is",min(grades))
+print("Lowest grade:  ",min(grades))
 # calculate highest grade
-print("Highest grade is",max(grades))
+print("Highest grade: ",max(grades))
 # calculate sum of grades
 grade_sum = sum(grades)
-print("Total grade is ",grade_sum)
+print("Sum of Grades: ",grade_sum)
 # average 
 size = len(grades)
 average = grade_sum / size
-print("The average of grades is",average)
+print("Average grade:  " + format(average,".2f"))
 
 print("-" * 31)
