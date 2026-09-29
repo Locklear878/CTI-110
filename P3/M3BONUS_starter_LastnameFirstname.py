@@ -1,5 +1,5 @@
-# Your Name
-# Date
+# Locklear, C
+# 9/29/26
 # M3BONUS - Let's Make a Deal
 # A short text adventure. The player picks a door and wins a prize.
 
