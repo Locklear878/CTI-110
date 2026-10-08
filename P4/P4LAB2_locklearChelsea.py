@@ -38,3 +38,7 @@ while again == "yes":
         print(f"{multiplier} * {number} = {number * multiplier}")
     # ask if they want to repeat
     again = input("Run again? (yes/no) ")
+    
+# outside the loop
+print()
+print("Exiting the program....")
